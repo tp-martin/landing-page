@@ -15,18 +15,36 @@ body {
     display: flex;
 }
 
+.links {
+    display: flex;
+}
+
 .header-info {
     display: flex;
 }
+
 .header-bottom {
     display: flex;
     flex-direction: column;
     }
 
-.links {
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
     display: flex;
 }
 
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+    padding 20px;
+    width: 150px;
+    height: 150px;
+
+}
 img {
     width: 300px;
 }
