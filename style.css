@@ -67,6 +67,20 @@ img {
     align-items: center;
 }
 
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    width: 480px;
+    height: 120px;
+    background-color: #3882F6;
+
+}
+
 .footer {
     background-color: #1F2937;
     display: flex;
