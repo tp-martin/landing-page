@@ -35,6 +35,8 @@ img {
 .information {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes {
@@ -61,6 +63,15 @@ img {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
