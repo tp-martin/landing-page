@@ -9,35 +9,50 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .header-top {
     display: flex;
-    justify-content: center;
     align-items: center;
-
 }
 
 .links {
     display: flex;
+    gap: 15px;
+    width: 450px;
+    justify-content: flex-end;
 }
 
 img {
     width: 300px;
     border-radius: 25px;
+    margin: 20px;
 }
 
 .header-info {
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.button-header {
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    
 }
 
 .header-bottom {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    padding: 20px 40px;
     }
 
 .information {
@@ -101,6 +116,7 @@ img {
 
 a {
     text-decoration: none;
+    color: gray;
 }
 
 li {
