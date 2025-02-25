@@ -44,6 +44,7 @@ img {
     margin: 20px;
     border: none;
     border-radius: 5px;
+    padding: 5px 0px;
     
 }
 
@@ -60,10 +61,13 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
 .boxes {
     display: flex;
+    justify-content: space-around;
+    gap: 15px;
 }
 
 .box {
@@ -75,6 +79,8 @@ img {
 
 .container {
     display: flex;
+    justify-content: space-around;
+    gap: 15px;
 }
 
 .text {
@@ -88,6 +94,13 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.main-quote {
+    width:450px;
 }
 
 .call-container {
@@ -95,6 +108,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    padding: 40px;
 }
 
 .action {
@@ -104,7 +118,19 @@ img {
     display: flex;
     padding: 20px;
     margin: 20px 0;
+    color: white;
+    align-items: center;
+}
 
+
+.button-action {
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+    margin: 20px;
+    border: solid white;
+    border-radius: 5px;
+    padding: 5px 0px;
 }
 
 .footer {
@@ -112,6 +138,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: gray;
 }
 
 a {
