@@ -1,1 +1,3 @@
 # landing-page
+
+Post project: It was a lot of fun to try and match an image. It was freeing and scary given little to no direction on how to set it all up. I have not yet looked at any other projects to see how my code stacks up. I can already see places where I could have made it a bit more succinct. I feel like I could sit forever and make tiny tweaks, like a drawing. But I want to learn more and maybe come back and tweak this. I will add another paragraph to this after I look at others and learn more. 
