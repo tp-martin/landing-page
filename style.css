@@ -29,7 +29,7 @@ body {
 img {
     width: 300px;
     border-radius: 25px;
-    margin: 20px;
+    margin-right: 20px;
 }
 
 .header-info {
@@ -74,6 +74,11 @@ img {
     border-radius: 25px;
     width: 120px;
     height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    background-color: #3882F6;
+    color: white;
 }
 
 .container {
@@ -138,6 +143,8 @@ img {
     justify-content: center;
     align-items: center;
     color: gray;
+    min-height: 60px;
+    font-size: 12px;
 }
 
 a {
