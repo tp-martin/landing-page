@@ -66,25 +66,24 @@ img {
 
 .boxes {
     display: flex;
-    justify-content: space-around;
     gap: 15px;
 }
 
 .box {
     border: 2px solid #3882F6;
     border-radius: 25px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
     gap: 15px;
 }
 
 .text {
-    width: 150px;
+    width: 120px;
+    height: 120px;
     text-align: center;
 }
 
@@ -116,7 +115,7 @@ img {
     background-color: #3882F6;
     border-radius: 10px;
     display: flex;
-    padding: 20px;
+    padding: 15px;
     margin: 20px 0;
     color: white;
     align-items: center;
